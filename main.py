@@ -43,7 +43,7 @@ def setup_logger():
     
     
 def help(update, context):
-    update.message.reply_text('𓆩𓄂𝙰𝚂𝚀🇦🇿 𝘚𝘰𝘻𝘶 𝘛𝘢𝘱 📕 Söz Oyun botunun əmirləri.:\n\n' +
+    update.message.reply_text('𓆩𓄂𝐃𝐀𝐑𝐊 𝐒𝐎𝐙 𝐆𝐀𝐌𝐄🖤 𝘚𝘰𝘻𝘶 𝘛𝘢𝘱 📕 Söz Oyun botunun əmirləri.:\n\n' +
                               '\n📎 /start - Şəxsidə Salam Msj Qrup daxilində oyunu tətikləyir.\n' +
                               '\n📎 /game - Oyunda aparıcı olmaq istəyirsinizsə yazın.\n' +
                               '\n📎 /rating - Qrup üzrə reytinqi görsədir.', reply_to_message_id=True)
@@ -81,15 +81,15 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="➕ Məni Qrupa əlavə ed ➕", url="https://t.me/UstaSozOyunbot?startgroup=a")
-        sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/Nehmedov")
-        oyun = InlineKeyboardButton(text="USTA Bots 🛠️", url="https://t.me/ustabots")
-        oksi = InlineKeyboardButton(text="Qurup 🛠", url="https://t.me/Sohbet_Paytaxt")
-        dalyok = InlineKeyboardButton(text="Nagarım 🛠️", url="https://t.me/TheBorzMaf") 
+        addme = InlineKeyboardButton(text="➕ Məni Qrupa əlavə ed ➕", url="https://t.me/DarkSozGamebot?startgroup=a")
+        sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/ordayam_5_deqiqeye")
+        oyun = InlineKeyboardButton(text="Oyun Qurubu🎮 ", url="https://t.me/TheBorzMaf")
+        oksi = InlineKeyboardButton(text="Söhbət Qurubu💬 ", url="https://t.me/TheBorzSohbet")
+        dalyok = InlineKeyboardButton(text="Tag Botumuz🫂 ", url="https://t.me/darktaggerbot") 
 
         keyboard = [[addme],[sohbet],[oyun],[oksi],[dalyok]]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        update.message.reply_text('Salam. Mənim Adım 𓆩𓄂𝙰𝚂𝚀🇦🇿 𝘚𝘰𝘻𝘶 𝘛𝘢𝘱 📕 Söz Oyun bot.\nQruplarda Əyləncəli vaxd keçirmək üçün yaradıldım.\n\nℹ️ Qrup Əlavə edərək /game əmrinə toxunun bu sizi aparıcı edəcəkdir.\nSizə gösdəriləm sözü doslarınız izah edməyə başlayın.\nSözü tapan şəxs qalib eylan olunacaq.\n\n📎Ətraflı məlumat almaq üçün /help əmrinə toxunun.', reply_to_message_id=True, reply_markup=reply_markup)
+        update.message.reply_text('Salam. Mənim Adım 𓆩𓄂𝐃𝐀𝐑𝐊 𝐒𝐎𝐙 𝐆𝐀𝐌𝐄🖤 𝘚𝘰𝘻𝘶 𝘛𝘢𝘱 📕 Söz Oyun bot.\nQruplarda Əyləncəli vaxd keçirmək üçün yaradıldım.\n\nℹ️ Qrup Əlavə edərək /game əmrinə toxunun bu sizi aparıcı edəcəkdir.\nSizə gösdəriləm sözü doslarınız izah edməyə başlayın.\nSözü tapan şəxs qalib eylan olunacaq.\n\n📎Ətraflı məlumat almaq üçün /help əmrinə toxunun.', reply_to_message_id=True, reply_markup=reply_markup)
     else:
         chat_id = update.message.chat.id
         user_id = update.message.from_user.id
