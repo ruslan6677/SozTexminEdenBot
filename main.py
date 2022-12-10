@@ -47,7 +47,11 @@ def help(update, context):
                               '\n📎 /start - Şəxsidə Salam Msj Qrup daxilində oyunu tətikləyir.\n' +
                               '\n📎 /game - Oyunda aparıcı olmaq istəyirsinizsə yazın.\n' +
                               '\n📎 /rating - Qrup üzrə reytinqi görsədir.', reply_to_message_id=True)
-    
+
+
+            
+    sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/ordayam_5_deqiqeye")
+    keyboard = [sohbet]
     
     
     
