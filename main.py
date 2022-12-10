@@ -85,7 +85,7 @@ def command_start(update, context: CallbackContext):
         sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/Nehmedov")
         oyun = InlineKeyboardButton(text="USTA Bots 🛠️", url="https://t.me/ustabots")
         oksi = InlineKeyboardButton(text="Qurup 🛠", url="https://t.me/Sohbet_Paytaxt")
-        oksi = InlineKeyboardButton(text="USTA Bots 🛠️", url="https://t.me/ustabots") 
+        dalyok = InlineKeyboardButton(text="Nagarım 🛠️", url="https://t.me/TheBorzMaf") 
 
         keyboard = [[addme],[sohbet],[oyun],[oksi]]
         reply_markup = InlineKeyboardMarkup(keyboard)
