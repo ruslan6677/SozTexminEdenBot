@@ -50,14 +50,14 @@ def help(update, context):
 
 
             
-    sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/ordayam_5_deqiqeye")
-    keyboard = [sohbet]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    update.message.reply_text('Salam. Mənim Adım 𓆩𓄂𝐃𝐀𝐑𝐊 𝐒𝐎𝐙 𝐆𝐀𝐌𝐄🖤 𝘚𝘰𝘻𝘶 𝘛𝘢𝘱 📕 Söz Oyun bot.\nQruplarda Əyləncəli vaxd keçirmək üçün yaradıldım.\n\nℹ️ Qrup Əlavə edərək /game əmrinə toxunun bu sizi aparıcı edəcəkdir.\nSizə gösdəriləm sözü doslarınız izah edməyə başlayın.\nSözü tapan şəxs qalib eylan olunacaq.\n\n📎Ətraflı məlumat almaq üçün /help əmrinə toxunun.', reply_to_message_id=True, reply_markup=reply_markup)
+      sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/ordayam_5_deqiqeye")
+      keyboard = [sohbet]
+      reply_markup = InlineKeyboardMarkup(keyboard)
+      update.message.reply_text('Salam. Mənim Adım 𓆩𓄂𝐃𝐀𝐑𝐊 𝐒𝐎𝐙 𝐆𝐀𝐌𝐄🖤 𝘚𝘰𝘻𝘶 𝘛𝘢𝘱 📕 Söz Oyun bot.\nQruplarda Əyləncəli vaxd keçirmək üçün yaradıldım.\n\nℹ️ Qrup Əlavə edərək /game əmrinə toxunun bu sizi aparıcı edəcəkdir.\nSizə gösdəriləm sözü doslarınız izah edməyə başlayın.\nSözü tapan şəxs qalib eylan olunacaq.\n\n📎Ətraflı məlumat almaq üçün /help əmrinə toxunun.', reply_to_message_id=True, reply_markup=reply_markup)
 else:
-    chat_id = update.message.chat.id
-    user_id = update.message.from_user.id
-    username = update.message.from_user.full_name
+  chat_id = update.message.chat.id
+  user_id = update.message.from_user.id
+  username = update.message.from_user.full_name
          
 
     
