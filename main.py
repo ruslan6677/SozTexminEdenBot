@@ -51,7 +51,7 @@ def help(update, context):
 
             
 sohbet = InlineKeyboardButton(text="Sahib 👨‍💻 ", url="https://t.me/ordayam_5_deqiqeye")
-keyboard = [[addme],[sohbet],[oyun],[oksi],[dalyok]]
+keyboard = [sohbet]
 reply_markup = InlineKeyboardMarkup(keyboard)
          
 
